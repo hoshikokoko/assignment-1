@@ -42,3 +42,24 @@ footer{
   height: 50px;
   margin-top: 50px;
 }
+
+/*以下にレスポンシブ対応記述*/
+
+@media screen and (max-width: 768px) {
+  
+  .contents {
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+  }
+  
+  .content {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: initial;
+    }
+  
+  .content:first-child {
+    margin-top: 0;
+  }
+}
